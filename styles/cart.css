@@ -108,6 +108,11 @@ main {
 .update, .delete {
   color: rgb(1, 124, 182);
   margin-left: 5px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.update:hover, .delete:hover {
+  color: orange;
 }
 .delivery-option {
   font-weight: bold;
