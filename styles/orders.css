@@ -1,0 +1,96 @@
+.main {
+  max-width: 890px;
+  margin: 20px auto;
+  padding: 0px 30px;
+}
+.order-card {
+  width: 100%;
+  border: 1px solid rgb(213, 217, 217);
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+.placed-order {
+  background-color:  rgb(240, 242, 242);
+  border: none;
+  border-bottom: 1px solid rgb(213, 217, 217);
+  border-radius: 12px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 150px 1fr auto;
+  font-size: 16px;
+ 
+}
+.left-header {
+  margin-right: 30px;
+
+}
+.product-ordered {
+  padding: 30px 25px 20px;
+  display: grid;
+  grid-template-columns: 150px 1fr auto;
+ 
+}
+.ordered-image > img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+.order-name {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+.arrival-date {
+  margin-bottom: 6px;
+}
+.buy-button > img {
+  width: 24px;
+}
+.buy-button {
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+  background-color: rgb(255, 216, 20);
+  padding: 6px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.track-order {
+  background-color: white;
+  padding: 8px 60px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.15s;
+  border-radius: 8px;
+  border: 1px solid rgb(213, 217, 217);
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+.track-order:hover {
+  background-color: rgb(240, 242, 242);
+}
+
+@media (max-width: 700px) {
+  .product-ordered {
+    grid-template-columns: 150px 1fr;
+  }
+  .track-order {
+    padding: 10px;
+    width: 140px;
+    margin-left: 150px;
+    margin-top: 5px;
+  }
+  .placed-order {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .left-header, .middle-header, .right-header {
+    display: flex;
+    margin-bottom: 6px;
+  }
+}

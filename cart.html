@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>checkout</title>
+  <link rel="stylesheet" href="./styles/cart.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <a class="logo" href="amazon.html">
+        <img class="desktop-view" src="./images/amazon-logo.png" alt="">
+        <img class="mobile-view" src="./images/amazon-mobile-logo.png" alt="">
+      </a>
+      <div class="header-title">Checkout ( <span>3 items</span> )</div>
+      <div class="locked"><img src="./images/icons/checkout-lock-icon.png" alt=""></div>
+    </div>
+  
+  </header>
+  <main>
+    <p class="review-order">Review your order</p>
+    <div class="order-grid-container">
+      <div class="delivery-grid-1">
+      </div>
+      <div class="summary">
+        <p class="order-summary">Order Summary</p>
+        <div class="rows">
+          <div>Items (3):</div>
+          <div class="column-price">$42.75</div>
+        </div>
+        <div class="rows">
+          <div>Shipping & handling:</div>
+          <div class="column-price">$4.99</div>
+        </div>
+        <hr class="subtotal">
+        <div class="rows">
+          <div>Total before tax:</div>
+          <div class="column-price">$47.74</div>
+        </div>
+       
+        <div class="rows">
+          <div>Estimated tax (10%):</div>
+          <div class="column-price">$4.77</div>
+        </div>
+        <hr>
+        <div class="rows order-total">
+          <div>Order total:</div>
+          <div class="column-price">$52.51</div>
+        </div>
+        <button class="order-button">Place your order</button>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="./scripts/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  padding-top: 65px;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 5px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.left-section {
+  margin-left: 25px;
+  /* margin-top: 5px; */
+}
+
+
+.desktop-view {
+  width: 100px;
+}
+.mobile-view {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobile-view {
+    display: initial;
+    width: 35px;
+  }
+  .desktop-view {
+    display: none;
+  }
+}
+
+.middle-section {
+  display: flex;
+  max-width: 870px;
+  flex: 1;
+  margin-left: 35px;
+}
+.search-bar {
+  flex: 1;
+  font-size: 17px;
+  width: 0;
+  height: 38px;
+  border: none;
+  padding-left: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  outline: none;
+}
+.search-button {
+  background-color: rgb(254, 189, 105);
+  height: 40px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+}
+.search-button > img {
+  width: 24px;
+  
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 25px;
+  /* width: 180px; */
+  cursor: pointer;
+}
+
+.returns {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  margin-top: 12px;
+}
+.returns::before {
+  content: "Returns";
+  position: absolute;
+  font-size: 13px;
+  font-weight: 400;
+  top: -15px;
+}
+.cart-button {
+  width: 50px;
+  position: relative;
+  margin-left: 15px;
+}
+
+.cart-button::before {
+  content: "Cart";
+  color: white;
+  font-weight: 700;
+  top: 15px;
+  left: 50px;
+  position: absolute;
+  font-size: 15px;
+}
+.cart-button > img {
+  width: 100%;
+}
+.cart-quantity {
+  color: rgb(240, 136, 4);
+  position: absolute;
+  right: 65px;
+  bottom: 31px;
+  font-weight: bold;
+  font-size: 18px;
+}
