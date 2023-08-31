@@ -35,21 +35,21 @@ cart.forEach((cartItem) => {
     <div class="delivery-date">
       <p class="delivery-option">Choose a delivery option:</p>
       <div class="option">
-        <input type="radio">
+        <input type="radio" name="deliery-option-${matchingProduct.id}">
         <div>
           <p>Tuesday, June 21</p>
           FREE Shipping
         </div>
       </div>
       <div class="option">
-        <input type="radio">
+        <input type="radio" name="deliery-option-${matchingProduct.id}">
         <div>
           <p>Wednesday, June 15</p>
           $4.99 - Shipping
         </div>
       </div>
       <div class="option">
-        <input type="radio">
+        <input type="radio" name="deliery-option-${matchingProduct.id}">
         <div>
           <p>Monday, June 13</p>
           $9.99 - Shipping
