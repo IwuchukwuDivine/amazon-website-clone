@@ -29,7 +29,7 @@ Welcome to my Amazon Website Clone repository! This project was created as a lea
 ## Acknowledgments:
 
 - This project was inspired by the Amazon website and served as a valuable learning experience for me to improve my frontend development skills.
-- Special thanks to Simple Dev for his incredibly helpful and resourceful tutorials. His guidance and explanations were instrumental in my understanding of every technique I implemented.
+- Special thanks to Super Simple Dev for his incredibly helpful and resourceful tutorials. His guidance and explanations were instrumental in my understanding of every technique I implemented.
 - Additionally, thanks to the online resources and tutorials that provided guidance and insights throughout the development process.
 
 ## About Me:
